@@ -1,3 +1,4 @@
+#include"graph.h"
 #include<iostream>
 #include<vector>
 #include<list>
@@ -14,77 +15,64 @@ using namespace std;
 5.) CONNECTIONS COUNTS
 6.) LIST REPRESNTING CONNECTIONS
 */
-class Node{
-public:
-    string name;
-    int connections;
-    long leetcode_rank;
-    float cgpa;
-    list<int> EdgeList;
-    vector<string> interests;
+Node :: Node(string name, long leetcode_rank, float cgpa, vector<string> interests) { 
+    this->connections = 0;
+    transform(name.begin(), name.end(), name.begin(),::tolower); 
+    this->name = name;
+    this->leetcode_rank = leetcode_rank;
+    this->cgpa = cgpa;
+    this->interests = interests;
+}
+void Node :: makeConnection(int idx){
+    this->EdgeList.push_back(idx);
+    (this->connections)++;
+}
 
-    // Constructor is called from 'Build_graph' function
-    Node(string name, long leetcode_rank, float cgpa, vector<string> interests) { 
-        this->connections = 0;
-        transform(name.begin(), name.end(), name.begin(),::tolower); 
-        this->name = name;
-        this->leetcode_rank = leetcode_rank;
-        this->cgpa = cgpa;
-        this->interests = interests;
-    }
-    void makeConnection(int idx){
-        this->EdgeList.push_back(idx);
-        (this->connections)++;
-    }
-};
-class Graph{
-public:
-    vector<Node> graph;
-    void addNode(string name, long leetcode_rank, float cgpa, vector<string>& interests){
-        Node newNode(name, leetcode_rank, cgpa, interests);
-        this->graph.push_back(newNode);
-    }
-    void addEdge(string src, string dest){
-        int srcIdx=-1, destIdx=-1, idx=0;
-        transform(src.begin(), src.end(), src.begin(), :: tolower);
-        transform(dest.begin(), dest.end(), dest.begin(), :: tolower);
-        for(auto i : graph){
-            if(i.name == src)
-                srcIdx = idx;
-            else if(i.name == dest)
-                destIdx = idx;
-            idx++;
-        }
-        if(srcIdx == destIdx){
-            cout << "Not possible to connect same node with each other" << endl;
-            return;
-        }
-        else if(srcIdx==-1 || destIdx==-1){
-            cout << "Either of the source or destination not found!!" << endl;
-            return;
-        }
-        this->graph[srcIdx].makeConnection(destIdx);
-        this->graph[destIdx].makeConnection(srcIdx);
-    }
-    void show(){
-        cout << "Profile " << 1 << " : " << endl;
-        for(int i = 0; i<this->graph.size(); i++){
-            cout << "Profile " << i + 1 << endl;
-            cout << "\tUser_Name : " << this->graph[i].name << endl;
 
-            cout << "\tConnections : " << this->graph[i].connections << endl;
-            cout << "\tConnections List : " << endl;
-            for(auto j : this->graph[i].EdgeList){
-                cout << "\t" << this->graph[j].name << endl; 
-            }
+void Graph :: addNode(string name, long leetcode_rank, float cgpa, vector<string>& interests){
+    Node newNode(name, leetcode_rank, cgpa, interests);
+    this->graph.push_back(newNode);
+}
+void Graph :: addEdge(string src, string dest){
+    int srcIdx=-1, destIdx=-1, idx=0;
+    transform(src.begin(), src.end(), src.begin(), :: tolower);
+    transform(dest.begin(), dest.end(), dest.begin(), :: tolower);
+    for(auto i : graph){
+        if(i.name == src)
+            srcIdx = idx;
+        else if(i.name == dest)
+            destIdx = idx;
+        idx++;
+    }
+    if(srcIdx == destIdx){
+        cout << "Not possible to connect same node with each other" << endl;
+        return;
+    }
+    else if(srcIdx==-1 || destIdx==-1){
+        cout << "Either of the source or destination not found!!" << endl;
+        return;
+    }
+    this->graph[srcIdx].makeConnection(destIdx);
+    this->graph[destIdx].makeConnection(srcIdx);
+}
+void Graph :: show(){
+    cout << "Profile " << 1 << " : " << endl;
+    for(int i = 0; i<this->graph.size(); i++){
+        cout << "Profile " << i + 1 << endl;
+        cout << "\tUser_Name : " << this->graph[i].name << endl;
 
-            cout << "\tInterests : " << endl;
-            for(auto j : this->graph[i].interests) {
-                cout << "\t" << j << endl;
-            }
+        cout << "\tConnections : " << this->graph[i].connections << endl;
+        cout << "\tConnections List : " << endl;
+        for(auto j : this->graph[i].EdgeList){
+            cout << "\t" << this->graph[j].name << endl; 
+        }
+
+        cout << "\tInterests : " << endl;
+        for(auto j : this->graph[i].interests) {
+            cout << "\t" << j << endl;
         }
     }
-};
+}
 
 /*This function is a helper function that helps us 
 to determine that the current LINE from INPUT.txt
@@ -184,8 +172,8 @@ void Build_graph(Graph& graph){
     }
     f.close();
 }
-// int main(){
-//     Graph graph{};
-//     Build_graph(graph);
-//     graph.show();
-// }
+int main(){
+    Graph graph{};
+    Build_graph(graph);
+    graph.show();
+}
