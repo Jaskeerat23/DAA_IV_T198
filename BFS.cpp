@@ -18,8 +18,33 @@ using namespace std;
 
 class BFS{
 public:
-    void bfs(Graph& graph){
-
+    void bfs(Graph& g){
+        vector<Node> graph=g.graph;
+        for(int i=0;i<graph.size();i++)
+        {
+            queue<int> q;
+            vector<bool> visited(graph.size(),false);
+            cout<<"\n\nNode : ";
+            if(!graph[i].EdgeList.empty())
+            {
+                q.push(i);
+                visited[i]=true;
+                while(!q.empty())
+                {
+                    int node_idx=q.front();
+                    cout <<graph[node_idx].name<<"--->";
+                    q.pop();
+                    for(int idx : graph[node_idx].EdgeList)
+                    {
+                        if(!visited[idx])
+                        {
+                            q.push(idx);
+                            visited[idx]=true;
+                        }
+                    }
+                }
+            }
+        }
     }
 };
 
@@ -28,4 +53,6 @@ int main() {
     Graph graph{};
     Build_graph(graph);
     graph.show();
+    BFS obj;
+    obj.bfs(graph);
 }
