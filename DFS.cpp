@@ -17,8 +17,6 @@ BEST OF LUCK!!
 using namespace std;
 
 class DFS {
-    vector<bool> visited;
-
 public:
     void dfs(Graph& graph) {
         string startName;
@@ -39,22 +37,29 @@ public:
             return;
         }
 
-        visited.assign(graph.graph.size(), false); 
+        vector<bool> visited(graph.graph.size(), false);
+        stack<int> s;
+
+        s.push(startIndex);
         cout << "\nDFS Traversal starting from \"" << startName << "\": ";
-        dfsRecursive(graph, startIndex);
-        cout << "END" << endl;
-    }
 
-private:
-    void dfsRecursive(Graph& graph, int idx) {
-        visited[idx] = true;
-        cout << graph.graph[idx].name << " -> ";
+        while (!s.empty()) {
+            int current = s.top();
+            s.pop();
 
-        for (int neighbor : graph.graph[idx].EdgeList) {
-            if (!visited[neighbor]) {
-                dfsRecursive(graph, neighbor);
+            if (!visited[current]) {
+                visited[current] = true;
+                cout << graph.graph[current].name << " -> ";
+
+                for (auto it = graph.graph[current].EdgeList.rbegin(); it != graph.graph[current].EdgeList.rend(); ++it) {
+                    if (!visited[*it]) {
+                        s.push(*it);
+                    }
+                }
             }
         }
+
+        cout << "END" << endl;
     }
 };
 
