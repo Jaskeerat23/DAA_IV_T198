@@ -1,0 +1,209 @@
+USERNAME : aditya_sharma81
+NAME : Aditya Sharma
+LEETCODE RANK : 75101
+CGPA : 8.83
+INTERESTS : DevOps, Competitive Programming, DSA,
+CONNECTIONS : jasmin_yadav23, kabir_rao54,
+
+USERNAME : yash_rana93
+NAME : Yash Rana
+LEETCODE RANK : 6350
+CGPA : 7.41
+INTERESTS : App Dev, Web Dev,
+CONNECTIONS : dev_singh31, dev_kapoor7, jasmin_yadav23,
+
+USERNAME : adarsh_nayan_chaube1
+NAME : Adarsh Nayan Chaube
+LEETCODE RANK : 60717
+CGPA : 6.7
+INTERESTS : Blockchain, Cloud Computing,
+CONNECTIONS : yash_rana93, tanishq_kapoor80, aryan_kumar51, rahul_pandey64,
+
+USERNAME : jaskeerat_singh32
+NAME : Jaskeerat Singh
+LEETCODE RANK : 76582
+CGPA : 7.77
+INTERESTS : UI/UX, DevOps, Robotics, App Dev,
+CONNECTIONS : vivaan_reddy20, rahul_joshi23, manan_jain60,
+
+USERNAME : dev_singh31
+NAME : Dev Singh
+LEETCODE RANK : 44657
+CGPA : 7.74
+INTERESTS : DevOps, DSA, Cybersecurity,
+CONNECTIONS : manan_jain60, adarsh_nayan_chaube1, rahul_malhotra66,
+
+USERNAME : shivansh_verma26
+NAME : Shivansh Verma
+LEETCODE RANK : 57574
+CGPA : 8.87
+INTERESTS : Cybersecurity, Web Dev, UI/UX,
+CONNECTIONS : yash_rana93, shivansh_thakur97, dev_sharma42,
+
+USERNAME : reyansh_pandey23
+NAME : Reyansh Pandey
+LEETCODE RANK : 4626
+CGPA : 7.37
+INTERESTS : App Dev, Competitive Programming,
+CONNECTIONS : kabir_rao54, vivaan_reddy20, rahul_malhotra66,
+
+USERNAME : tanishq_kapoor80
+NAME : Tanishq Kapoor
+LEETCODE RANK : 32643
+CGPA : 7.98
+INTERESTS : Blockchain, DSA, UI/UX,
+CONNECTIONS : reyansh_pandey23, adarsh_nayan_chaube1, rahul_joshi23,
+
+USERNAME : aryan_kumar51
+NAME : Aryan Kumar
+LEETCODE RANK : 72138
+CGPA : 7.56
+INTERESTS : UI/UX, Blockchain, DSA,
+CONNECTIONS : reyansh_pandey23, shivansh_verma26, vivaan_reddy20, prateek_bansal84,
+
+USERNAME : karan_thakur62
+NAME : Karan Thakur
+LEETCODE RANK : 35484
+CGPA : 7.7
+INTERESTS : Cloud Computing, Blockchain,
+CONNECTIONS : shivansh_thakur97, aryan_kumar51, kabir_rao54,
+
+USERNAME : prateek_bansal84
+NAME : Prateek Bansal
+LEETCODE RANK : 41485
+CGPA : 8.27
+INTERESTS : Competitive Programming, Robotics,
+CONNECTIONS : dev_kapoor7, rahul_joshi23, dev_singh31, tanishq_kapoor80,
+
+USERNAME : rahul_malhotra66
+NAME : Rahul Malhotra
+LEETCODE RANK : 38490
+CGPA : 7.53
+INTERESTS : Graph Theory, App Dev,
+CONNECTIONS : jaskeerat_singh32, dev_sharma42,
+
+USERNAME : rahul_pandey64
+NAME : Rahul Pandey
+LEETCODE RANK : 29497
+CGPA : 8.74
+INTERESTS : Web Dev, UI/UX,
+CONNECTIONS : karan_thakur62, reyansh_desai64,
+
+USERNAME : rahul_kumar24
+NAME : Rahul Kumar
+LEETCODE RANK : 44540
+CGPA : 9.65
+INTERESTS : App Dev, DSA,
+CONNECTIONS : manan_saxena3, prateek_bansal84, aryan_desai34,
+
+USERNAME : sakshi_patel13
+NAME : Sakshi Patel
+LEETCODE RANK : 14380
+CGPA : 9.49
+INTERESTS : App Dev, AI/ML, DSA,
+CONNECTIONS : tanya_saxena16, dev_sharma42,
+
+USERNAME : manan_jain60
+NAME : Manan Jain
+LEETCODE RANK : 65752
+CGPA : 9.94
+INTERESTS : AI/ML, Competitive Programming, UI/UX, Blockchain,
+CONNECTIONS : shivansh_thakur97, yash_rana93, jaskeerat_singh32,
+
+USERNAME : tanya_saxena16
+NAME : Tanya Saxena
+LEETCODE RANK : 31717
+CGPA : 8.96
+INTERESTS : Graph Theory, App Dev, Cloud Computing, AI/ML,
+CONNECTIONS : rahul_kumar24, sakshi_patel13, kabir_rao54, tanishq_kapoor80,
+
+USERNAME : kabir_rao54
+NAME : Kabir Rao
+LEETCODE RANK : 59698
+CGPA : 8.48
+INTERESTS : Cloud Computing, Cybersecurity,
+CONNECTIONS : dev_sharma42, jasmin_joshi1,
+
+USERNAME : reyansh_desai64
+NAME : Reyansh Desai
+LEETCODE RANK : 67508
+CGPA : 9.62
+INTERESTS : AI/ML, Blockchain, DevOps,
+CONNECTIONS : reyansh_pandey23, jasmin_yadav23, vivaan_reddy20, dev_kapoor7,
+
+USERNAME : jasmin_joshi1
+NAME : Jasmin Joshi
+LEETCODE RANK : 34082
+CGPA : 8.57
+INTERESTS : Web Dev, DevOps, App Dev, Robotics,
+CONNECTIONS : rahul_malhotra66, dev_singh31, sanya_thakur62,
+
+USERNAME : vivaan_reddy20
+NAME : Vivaan Reddy
+LEETCODE RANK : 14341
+CGPA : 9.27
+INTERESTS : Blockchain, UI/UX, AI/ML,
+CONNECTIONS : jasmin_joshi1, rahul_joshi23,
+
+USERNAME : jasmin_yadav23
+NAME : Jasmin Yadav
+LEETCODE RANK : 50646
+CGPA : 6.98
+INTERESTS : Graph Theory, DevOps, Cloud Computing, UI/UX,
+CONNECTIONS : yash_rana93, reyansh_desai64, aditya_sharma81,
+
+USERNAME : manan_saxena3
+NAME : Manan Saxena
+LEETCODE RANK : 45759
+CGPA : 7.55
+INTERESTS : Competitive Programming, Cloud Computing, App Dev, Graph Theory,
+CONNECTIONS : adarsh_nayan_chaube1, jaskeerat_singh32, kabir_rao54, prateek_bansal84,
+
+USERNAME : dev_kapoor7
+NAME : Dev Kapoor
+LEETCODE RANK : 41259
+CGPA : 8.46
+INTERESTS : Web Dev, UI/UX, DSA, Blockchain,
+CONNECTIONS : jasmin_yadav23, aryan_desai34, reyansh_desai64, rahul_pandey64,
+
+USERNAME : vivaan_choudhary18
+NAME : Vivaan Choudhary
+LEETCODE RANK : 11957
+CGPA : 7.48
+INTERESTS : Web Dev, Competitive Programming, Graph Theory, DSA,
+CONNECTIONS : yash_rana93, tanya_saxena16,
+
+USERNAME : sanya_thakur62
+NAME : Sanya Thakur
+LEETCODE RANK : 31427
+CGPA : 9.76
+INTERESTS : Robotics, DSA, Cloud Computing,
+CONNECTIONS : dev_singh31, tanya_saxena16, aditya_sharma81, vivaan_reddy20,
+
+USERNAME : shivansh_thakur97
+NAME : Shivansh Thakur
+LEETCODE RANK : 52337
+CGPA : 8.02
+INTERESTS : App Dev, Web Dev,
+CONNECTIONS : reyansh_desai64, prateek_bansal84, manan_jain60, karan_thakur62,
+
+USERNAME : rahul_joshi23
+NAME : Rahul Joshi
+LEETCODE RANK : 59138
+CGPA : 8.14
+INTERESTS : Robotics, Cybersecurity,
+CONNECTIONS : vivaan_choudhary18, rahul_kumar24,
+
+USERNAME : dev_sharma42
+NAME : Dev Sharma
+LEETCODE RANK : 54675
+CGPA : 9.64
+INTERESTS : Blockchain, Graph Theory,
+CONNECTIONS : tanishq_kapoor80, reyansh_desai64, jaskeerat_singh32,
+
+USERNAME : aryan_desai34
+NAME : Aryan Desai
+LEETCODE RANK : 28645
+CGPA : 7.39
+INTERESTS : App Dev, Cloud Computing,
+CONNECTIONS : dev_singh31, aryan_kumar51, rahul_malhotra66,

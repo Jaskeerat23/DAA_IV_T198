@@ -1,9 +1,12 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
         "*.sqlbook": "sql",
         "*.ndjson": "jsonl",
-        "*.dbclient-js": "javascript",
         "iostream": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "ostream": "cpp"
     }
 }

@@ -10,19 +10,20 @@ using namespace std;
 class Node{
 public:
     string name;
+    string userName;
     int connections;
     long leetcode_rank;
     float cgpa;
     list<int> EdgeList;
     vector<string> interests;
-    Node(string name, long leetcode_rank, float cgpa, vector<string> interests);
+    Node(string userName, string name, long leetcode_rank, float cgpa, vector<string> interests);
     void makeConnection(int idx);
 };
 
 class Graph{
 public:
     vector<Node> graph;
-    void addNode(string name, long leetcode_rank, float cgpa, vector<string>& interests);
+    void addNode(string userName, string name, long leetcode_rank, float cgpa, vector<string>& interests);
     void addEdge(string src, string dest);
     void show();
 };

@@ -15,9 +15,10 @@ using namespace std;
 5.) CONNECTIONS COUNTS
 6.) LIST REPRESNTING CONNECTIONS
 */
-Node :: Node(string name, long leetcode_rank, float cgpa, vector<string> interests) { 
+Node :: Node(string userName, string name, long leetcode_rank, float cgpa, vector<string> interests) { 
     this->connections = 0;
-    transform(name.begin(), name.end(), name.begin(),::tolower); 
+    transform(name.begin(), name.end(), name.begin(),::tolower);
+    this->userName = userName;
     this->name = name;
     this->leetcode_rank = leetcode_rank;
     this->cgpa = cgpa;
@@ -29,14 +30,14 @@ void Node :: makeConnection(int idx){
 }
 
 
-void Graph :: addNode(string name, long leetcode_rank, float cgpa, vector<string>& interests){
-    Node newNode(name, leetcode_rank, cgpa, interests);
+void Graph :: addNode(string userName, string name, long leetcode_rank, float cgpa, vector<string>& interests){
+    Node newNode(userName, name, leetcode_rank, cgpa, interests);
     this->graph.push_back(newNode);
 }
 void Graph :: addEdge(string src, string dest){
     int srcIdx=-1, destIdx=-1, idx=0;
-    transform(src.begin(), src.end(), src.begin(), :: tolower);
-    transform(dest.begin(), dest.end(), dest.begin(), :: tolower);
+    transform(src.begin(), src.end(), src.begin(), ::tolower);
+    transform(dest.begin(), dest.end(), dest.begin(), ::tolower);
     for(auto i : graph){
         if(i.name == src)
             srcIdx = idx;
@@ -45,6 +46,7 @@ void Graph :: addEdge(string src, string dest){
         idx++;
     }
     if(srcIdx == destIdx){
+        // cout << srcIdx << " " << destIdx << endl;
         cout << "Not possible to connect same node with each other" << endl;
         return;
     }
@@ -59,17 +61,18 @@ void Graph :: show(){
     cout << "Profile " << 1 << " : " << endl;
     for(int i = 0; i<this->graph.size(); i++){
         cout << "Profile " << i + 1 << endl;
-        cout << "\tUser_Name : " << this->graph[i].name << endl;
+        cout << "\tName : " << this->graph[i].name << endl;
+        cout << "\tUser_Name : " << this->graph[i].userName << endl;
 
         cout << "\tConnections : " << this->graph[i].connections << endl;
         cout << "\tConnections List : " << endl;
         for(auto j : this->graph[i].EdgeList){
-            cout << "\t" << this->graph[j].name << endl; 
+            cout << "\t\t" << this->graph[j].name << endl; 
         }
 
         cout << "\tInterests : " << endl;
         for(auto j : this->graph[i].interests) {
-            cout << "\t" << j << endl;
+            cout << "\t\t" << j << endl;
         }
     }
 }
@@ -93,7 +96,7 @@ string get_property(string line, int& idx){
 
 void Build_graph(Graph& graph){
     ifstream f("INPUTS.txt");
-    string line, name;
+    string line, name, userName;
     long leetcode_rank;
     float cgpa;
     vector<string> interests, connections;
@@ -104,9 +107,10 @@ void Build_graph(Graph& graph){
     while(getline(f, line)){
         if(line == ""){
 
-            graph.addNode(name, leetcode_rank, cgpa, interests);
+            graph.addNode(userName, name, leetcode_rank, cgpa, interests);
 
             for(int i = 0; i<connections.size(); i++){
+                cout << "connections[i] : " << connections[i] << endl;
                 graph.addEdge(name, connections[i]);
             }
 
@@ -120,16 +124,24 @@ void Build_graph(Graph& graph){
         string prop = get_property(line, idx);
 
         /*If current property is NAME then save the
-        name of the Student in name variable
+        name of the Student in name variableclear
+
         */
-        if(prop == "NAME")
+        if(prop == "NAME"){
             name = line.substr(idx+2, line.length());
+            cout << "name is " << name << endl;
+        }
         
         /*If current property is LEETCODE RANK then
         store that rank in 'leetcode_rank' variable by
         converting it to long datatype using C++ 
         in-built function 'stol'
         */
+        else if(prop == "USERNAME"){
+            userName = line.substr(idx+2, line.length());
+            // cout << "userName is : " << userName << endl;
+        }
+
         else if(prop == "LEETCODE RANK")
             leetcode_rank = stol(line.substr(idx+2, line.length()));
         
@@ -167,6 +179,9 @@ void Build_graph(Graph& graph){
                     idx = i;
                 }
             }
+        }
+        else{
+            cout << "Wrong Property" << endl;
         }
         
     }
