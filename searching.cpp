@@ -31,18 +31,45 @@ BEST OF LUCK!!
 #include<algorithm>
 #include<bits/stdc++.h>
 #include<iterator>
+#include"graph.h"
 #include"graph.cpp"
 using namespace std;
 
-class BFS{
-public:
-    void bfs(Graph& graph){
+class searching {
+    public:
+        void search(Graph& graph) {
+            string query;
+            cout << "Enter name or part of name to search: ";
+            getline(cin, query);
+    
+           
+            transform(query.begin(), query.end(), query.begin(), ::tolower);
+    
+            bool found = false;
+            for (auto& node : graph.graph) {
+                if (node.name.find(query) != string::npos) {
+                    if (!found) {
+                        cout << "\nMatching Profiles:\n";
+                        found = true;
+                    }
+                    cout << "\t- " << node.name << endl;
+                }
+            }
+    
+            if (!found) {
+                cout << "No profiles match the search query.\n";
+            }
+        }
+    };
+    
 
+ int main() {
+        Graph graph;
+        Build_graph(graph);
+    
+        searching s;
+        s.search(graph);
+    
+        return 0;
     }
-};
-
-int main() {
-    Graph graph{};
-    Build_graph(graph);
-    graph.show();
-}
+    
