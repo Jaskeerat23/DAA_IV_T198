@@ -187,8 +187,8 @@ void Build_graph(Graph& graph){
     }
     f.close();
 }
-int main(){
+/*int main(){
     Graph graph{};
     Build_graph(graph);
     graph.show();
-}
+}*/
