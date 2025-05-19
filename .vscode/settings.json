@@ -7,6 +7,7 @@
         "fstream": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iosfwd": "cpp"
     }
 }

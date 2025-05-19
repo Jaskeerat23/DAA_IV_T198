@@ -8,12 +8,13 @@
 using namespace std;
 
 /*This class Node represent Student with members:
-1.) NAME
-2.) LEETCODE RANK
-3.) CGPA
-4.) INTERESTS
-5.) CONNECTIONS COUNTS
-6.) LIST REPRESNTING CONNECTIONS
+1.) USERNAME
+2.) NAME
+3.) LEETCODE RANK
+4.) CGPA
+5.) INTERESTS
+6.) CONNECTIONS COUNTS
+7.) LIST REPRESNTING CONNECTIONS
 */
 Node :: Node(string userName, string name, long leetcode_rank, float cgpa, vector<string> interests) { 
     this->connections = 0;
@@ -95,22 +96,21 @@ string get_property(string line, int& idx){
 
 
 void Build_graph(Graph& graph){
-    ifstream f("INPUTS.txt");
+    ifstream f("D:/DAA_project/INPUTS.txt");
     string line, name, userName;
     long leetcode_rank;
     float cgpa;
     vector<string> interests, connections;
     if(!f.is_open()){
-        cout << "Error Opening File!!" << endl;
+        cout << "Error Opening File!" << endl;
         return;
     }
     while(getline(f, line)){
-        if(line == ""){
-
+        if(line == "" || line == "\n"){
+            cout << name << endl;
             graph.addNode(userName, name, leetcode_rank, cgpa, interests);
 
             for(int i = 0; i<connections.size(); i++){
-                cout << "connections[i] : " << connections[i] << endl;
                 graph.addEdge(name, connections[i]);
             }
 
@@ -129,7 +129,6 @@ void Build_graph(Graph& graph){
         */
         if(prop == "NAME"){
             name = line.substr(idx+2, line.length());
-            cout << "name is " << name << endl;
         }
         
         /*If current property is LEETCODE RANK then
@@ -187,8 +186,8 @@ void Build_graph(Graph& graph){
     }
     f.close();
 }
-int main(){
-    Graph graph{};
-    Build_graph(graph);
-    graph.show();
-}
+// int main(){
+//     Graph graph{};
+//     Build_graph(graph);
+//     graph.show();
+// }
