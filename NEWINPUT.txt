@@ -1,0 +1,240 @@
+USERNAME: user1
+NAME: Alice Johnson
+LEETCODERANK: 91736
+CGPA: 8.61
+YEAR: 2
+EDGES: 2
+INTERESTS: Cybersecurity, AI,
+DOMAIN: Machine Learning
+EXPERIENCE: Bug Bounty Hunter, Robotics Workshop,
+GOAL: Lead an ML Team
+CONNECTIONS: user19, user2,
+
+USERNAME: user2
+NAME: Bob Smith
+LEETCODERANK: 53065
+CGPA: 7.94
+YEAR: 4
+EDGES: 3
+INTERESTS: ML, AR/VR,
+DOMAIN: Embedded Systems
+EXPERIENCE: Web Dev Internship, Open Source Contributor, Research Assistant,
+GOAL: Develop Innovative Apps
+CONNECTIONS: user10, user14, user12,
+
+USERNAME: user3
+NAME: Charlie Verma
+LEETCODERANK: 79786
+CGPA: 9.53
+YEAR: 4
+EDGES: 3
+INTERESTS: AppDev, IoT, WebDev,
+DOMAIN: Machine Learning
+EXPERIENCE: Web Dev Internship, Bug Bounty Hunter, Research Assistant,
+GOAL: Build AI for Healthcare
+CONNECTIONS: user8, user16, user13,
+
+USERNAME: user4
+NAME: Deepti Shah
+LEETCODERANK: 31472
+CGPA: 8.59
+YEAR: 2
+EDGES: 2
+INTERESTS: WebDev, ML, Cloud, AppDev,
+DOMAIN: Cybersecurity
+EXPERIENCE: Web Dev Internship, Bug Bounty Hunter,
+GOAL: Develop Innovative Apps
+CONNECTIONS: user17, user16,
+
+USERNAME: user5
+NAME: Ethan Brown
+LEETCODERANK: 11534
+CGPA: 8.66
+YEAR: 4
+EDGES: 4
+INTERESTS: AI, WebDev, Cybersecurity,
+DOMAIN: Web Development
+EXPERIENCE: Hackathon Winner, Robotics Workshop, Freelancer,
+GOAL: Contribute to Open Source
+CONNECTIONS: user9, user17, user20, user1,
+
+USERNAME: user6
+NAME: Fiona Green
+LEETCODERANK: 3558
+CGPA: 7.92
+YEAR: 4
+EDGES: 2
+INTERESTS: Robotics, IoT,
+DOMAIN: Cybersecurity
+EXPERIENCE: Bug Bounty Hunter, Hackathon Winner,
+GOAL: Contribute to Open Source
+CONNECTIONS: user2, user15,
+
+USERNAME: user7
+NAME: Gaurav Mehta
+LEETCODERANK: 96295
+CGPA: 8.18
+YEAR: 2
+EDGES: 2
+INTERESTS: WebDev, ML, AR/VR,
+DOMAIN: Machine Learning
+EXPERIENCE: Bug Bounty Hunter, Research Assistant,
+GOAL: Advance Indian Defense Tech
+CONNECTIONS: user9, user15,
+
+USERNAME: user8
+NAME: Hannah Lee
+LEETCODERANK: 32330
+CGPA: 9.6
+YEAR: 2
+EDGES: 2
+INTERESTS: AI, AppDev, Cloud, Robotics,
+DOMAIN: App Development
+EXPERIENCE: Research Assistant, Course Mentor, Robotics Workshop,
+GOAL: Build Secure Systems
+CONNECTIONS: user19, user18,
+
+USERNAME: user9
+NAME: Ishaan Roy
+LEETCODERANK: 4455
+CGPA: 8.81
+YEAR: 1
+EDGES: 3
+INTERESTS: Robotics, AI, AR/VR,
+DOMAIN: App Development
+EXPERIENCE: Web Dev Internship, Hackathon Winner,
+GOAL: Advance Indian Defense Tech
+CONNECTIONS: user4, user8, user10,
+
+USERNAME: user10
+NAME: Jasmine Kaur
+LEETCODERANK: 74707
+CGPA: 6.83
+YEAR: 2
+EDGES: 2
+INTERESTS: WebDev, AppDev,
+DOMAIN: Robotics
+EXPERIENCE: Intern at TCS, Open Source Contributor, Course Mentor,
+GOAL: Build AI for Healthcare
+CONNECTIONS: user8, user6,
+
+USERNAME: user11
+NAME: Kunal Desai
+LEETCODERANK: 45984
+CGPA: 8.49
+YEAR: 1
+EDGES: 3
+INTERESTS: WebDev, Cloud,
+DOMAIN: Embedded Systems
+EXPERIENCE: Course Mentor, Robotics Workshop, Freelancer,
+GOAL: Advance Indian Defense Tech
+CONNECTIONS: user1, user3, user4,
+
+USERNAME: user12
+NAME: Lara Pinto
+LEETCODERANK: 91836
+CGPA: 7.63
+YEAR: 4
+EDGES: 3
+INTERESTS: Robotics, Cybersecurity, AI, DSA,
+DOMAIN: Robotics
+EXPERIENCE: Research Assistant, Intern at TCS,
+GOAL: Build AI for Healthcare
+CONNECTIONS: user11, user1, user16,
+
+USERNAME: user13
+NAME: Mihir Sinha
+LEETCODERANK: 13252
+CGPA: 8.08
+YEAR: 4
+EDGES: 4
+INTERESTS: Robotics, Cybersecurity, AppDev,
+DOMAIN: Embedded Systems
+EXPERIENCE: Research Assistant, Bug Bounty Hunter, Freelancer,
+GOAL: Contribute to Open Source
+CONNECTIONS: user10, user7, user8, user19,
+
+USERNAME: user14
+NAME: Nina Dsouza
+LEETCODERANK: 10501
+CGPA: 7.88
+YEAR: 1
+EDGES: 2
+INTERESTS: IoT, Cybersecurity,
+DOMAIN: Machine Learning
+EXPERIENCE: Hackathon Winner, Robotics Workshop,
+GOAL: Build AI for Healthcare
+CONNECTIONS: user10, user15,
+
+USERNAME: user15
+NAME: Omkar Patil
+LEETCODERANK: 22948
+CGPA: 7.45
+YEAR: 2
+EDGES: 2
+INTERESTS: WebDev, Cloud,
+DOMAIN: Cybersecurity
+EXPERIENCE: Hackathon Winner, Web Dev Internship,
+GOAL: Work at Google
+CONNECTIONS: user5, user8,
+
+USERNAME: user16
+NAME: Priya Iyer
+LEETCODERANK: 27933
+CGPA: 9.31
+YEAR: 2
+EDGES: 2
+INTERESTS: DSA, Cybersecurity, AR/VR, AI,
+DOMAIN: Data Science
+EXPERIENCE: Hackathon Winner, Bug Bounty Hunter, Web Dev Internship,
+GOAL: Lead an ML Team
+CONNECTIONS: user19, user14,
+
+USERNAME: user17
+NAME: Qasim Javed
+LEETCODERANK: 65519
+CGPA: 6.83
+YEAR: 4
+EDGES: 4
+INTERESTS: AI, Cybersecurity, ML, Cloud,
+DOMAIN: Web Development
+EXPERIENCE: Hackathon Winner, Course Mentor,
+GOAL: Work at Google
+CONNECTIONS: user19, user1, user20, user9,
+
+USERNAME: user18
+NAME: Ritika Malhotra
+LEETCODERANK: 42025
+CGPA: 7.69
+YEAR: 4
+EDGES: 3
+INTERESTS: Cybersecurity, WebDev, AR/VR, IoT,
+DOMAIN: Cloud Computing
+EXPERIENCE: Open Source Contributor, Research Assistant,
+GOAL: Lead an ML Team
+CONNECTIONS: user5, user17, user14,
+
+USERNAME: user19
+NAME: Sarthak Jain
+LEETCODERANK: 63151
+CGPA: 9.66
+YEAR: 3
+EDGES: 4
+INTERESTS: ML, IoT,
+DOMAIN: Web Development
+EXPERIENCE: Intern at TCS, Freelancer, Research Assistant,
+GOAL: Build AI for Healthcare
+CONNECTIONS: user18, user16, user5, user20,
+
+USERNAME: user20
+NAME: Tanya Verghese
+LEETCODERANK: 88333
+CGPA: 6.79
+YEAR: 2
+EDGES: 2
+INTERESTS: Robotics, AI, DSA, WebDev,
+DOMAIN: App Development
+EXPERIENCE: Bug Bounty Hunter, Freelancer, Web Dev Internship,
+GOAL: Contribute to Open Source
+CONNECTIONS: user10, user6,
+

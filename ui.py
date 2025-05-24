@@ -10,11 +10,14 @@ def checkExist(inputFile, checkFile, outFile, userNames):
         query = file.readline()
     
     with open(outFile, 'w') as file:
-        for userName in userNames[query[0]]:
-            if userName == query:
-                file.write("0")
-                return
-        file.write("1")
+        try:
+            for userName in userNames[query[0]]:
+                if userName == query:
+                    file.write("0")
+                    return
+            file.write("1")
+        except KeyError:
+            file.write("1")
 
 def login():
     placeholder = st.empty()
