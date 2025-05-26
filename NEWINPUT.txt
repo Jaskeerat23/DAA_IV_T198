@@ -1,165 +1,165 @@
-USERNAME: aarav47
+USERNAME: aarav69
 NAME: Aarav Sharma
-LEETCODERANK: 98260
-CGPA: 7.82
+LEETCODERANK: 46208
+CGPA: 8.0
 YEAR: 4
-INTERESTS: AR/VR, Cybersecurity, ML,
-DOMAIN: App Development
-EXPERIENCE: Intern at Infosys,
-GOAL: Skills
-CONNECTIONS: neha79, raj79, isha36,
-
-USERNAME: ananya81
-NAME: Ananya Patel
-LEETCODERANK: 33020
-CGPA: 8.86
-YEAR: 3
-INTERESTS: AR/VR, IoT, Blockchain,
-DOMAIN: AI/ML
-EXPERIENCE: Research Assistant, Intern at Infosys, Freelancer,
-GOAL: Academia
-CONNECTIONS: tanya80, divya67, nidhi23,
-
-USERNAME: rohan58
-NAME: Rohan Mehta
-LEETCODERANK: 17821
-CGPA: 9.06
-YEAR: 2
-INTERESTS: AR/VR,
-DOMAIN: Cloud Computing
-EXPERIENCE: Freelancer,
-GOAL: Skills
-CONNECTIONS: vikram87, sid94, divya17,
-
-USERNAME: isha34
-NAME: Isha Verma
-LEETCODERANK: 90944
-CGPA: 9.26
-YEAR: 2
 INTERESTS: Blockchain,
-DOMAIN: Embedded Systems
-EXPERIENCE: Intern at TCS,
-GOAL: Academia
-CONNECTIONS: pooja69, raj93, nidhi36,
-
-USERNAME: kunal33
-NAME: Kunal Das
-LEETCODERANK: 11200
-CGPA: 8.35
-YEAR: 3
-INTERESTS: IoT, AR/VR, ML,
-DOMAIN: Web Development
-EXPERIENCE: Freelancer, Open Source Contributor,
+DOMAIN: AI/ML
+EXPERIENCE: Open Source Contributor, Intern at TCS,
 GOAL: Skills
-CONNECTIONS: rohan54, pooja83, aarav37,
+CONNECTIONS: ananya64, isha26, divya24,
 
-USERNAME: nidhi24
-NAME: Nidhi Singh
-LEETCODERANK: 74964
-CGPA: 8.15
+USERNAME: ananya64
+NAME: Ananya Patel
+LEETCODERANK: 58210
+CGPA: 8.67
 YEAR: 3
-INTERESTS: Robotics, AR/VR,
-DOMAIN: Embedded Systems
-EXPERIENCE: Intern at TCS, Open Source Contributor,
-GOAL: Skills
-CONNECTIONS: vikram56, raj82, kunal12,
-
-USERNAME: vikram85
-NAME: Vikram Nair
-LEETCODERANK: 54101
-CGPA: 8.03
-YEAR: 4
 INTERESTS: ML,
 DOMAIN: Embedded Systems
-EXPERIENCE: Intern at Infosys, Intern at TCS,
-GOAL: Skills
-CONNECTIONS: sid55, aarav15, tanya60,
-
-USERNAME: pooja98
-NAME: Pooja Reddy
-LEETCODERANK: 97129
-CGPA: 8.36
-YEAR: 2
-INTERESTS: IoT,
-DOMAIN: Web Development
 EXPERIENCE: Freelancer,
 GOAL: Skills
-CONNECTIONS: isha31, arjun55, rohan78,
+CONNECTIONS: divya24, kunal28, rohan39,
 
-USERNAME: sid36
-NAME: Siddharth Rao
-LEETCODERANK: 54262
-CGPA: 8.46
+USERNAME: rohan39
+NAME: Rohan Mehta
+LEETCODERANK: 61537
+CGPA: 8.03
 YEAR: 4
-INTERESTS: Robotics, ML,
-DOMAIN: Embedded Systems
-EXPERIENCE: Intern at TCS, Open Source Contributor, Research Assistant,
+INTERESTS: Cybersecurity, AR/VR, Data Science,
+DOMAIN: Cloud Computing
+EXPERIENCE: Freelancer,
+GOAL: Academia
+CONNECTIONS: kunal28, meera40, nidhi98,
+
+USERNAME: isha26
+NAME: Isha Verma
+LEETCODERANK: 92123
+CGPA: 9.1
+YEAR: 2
+INTERESTS: AR/VR, ML,
+DOMAIN: Web Development
+EXPERIENCE: Intern at TCS,
+GOAL: Academia
+CONNECTIONS: meera40, kunal28, vikram15,
+
+USERNAME: kunal28
+NAME: Kunal Das
+LEETCODERANK: 23099
+CGPA: 9.02
+YEAR: 2
+INTERESTS: Blockchain, ML,
+DOMAIN: App Development
+EXPERIENCE: Research Assistant, Freelancer,
+GOAL: Academia
+CONNECTIONS: neha80, tanya14, divya24,
+
+USERNAME: nidhi98
+NAME: Nidhi Singh
+LEETCODERANK: 22399
+CGPA: 7.61
+YEAR: 3
+INTERESTS: Data Science,
+DOMAIN: App Development
+EXPERIENCE: Open Source Contributor,
+GOAL: Academia
+CONNECTIONS: aarav69, meera40, rohan39,
+
+USERNAME: vikram15
+NAME: Vikram Nair
+LEETCODERANK: 70835
+CGPA: 7.89
+YEAR: 3
+INTERESTS: Blockchain, IoT, Data Science,
+DOMAIN: AI/ML
+EXPERIENCE: Research Assistant, Intern at Infosys, Freelancer,
 GOAL: Skills
-CONNECTIONS: pooja66, aarav65, tanya96,
+CONNECTIONS: neha80, kunal28, ananya64,
 
-USERNAME: tanya87
+USERNAME: pooja39
+NAME: Pooja Reddy
+LEETCODERANK: 35768
+CGPA: 9.44
+YEAR: 4
+INTERESTS: Blockchain, ML, Cybersecurity,
+DOMAIN: Web Development
+EXPERIENCE: Open Source Contributor, Research Assistant, Intern at Infosys,
+GOAL: Skills
+CONNECTIONS: kunal28, vikram15, tanya14,
+
+USERNAME: sid42
+NAME: Siddharth Rao
+LEETCODERANK: 78994
+CGPA: 8.4
+YEAR: 2
+INTERESTS: Blockchain, IoT, Cybersecurity,
+DOMAIN: Cloud Computing
+EXPERIENCE: Open Source Contributor, Freelancer,
+GOAL: Academia
+CONNECTIONS: divya24, neha80, ananya64,
+
+USERNAME: tanya14
 NAME: Tanya Iyer
-LEETCODERANK: 73955
-CGPA: 8.76
+LEETCODERANK: 95252
+CGPA: 9.17
 YEAR: 2
-INTERESTS: AR/VR,
-DOMAIN: Embedded Systems
-EXPERIENCE: Open Source Contributor, Intern at Infosys,
-GOAL: Academia
-CONNECTIONS: sid19, vikram31, raj70,
+INTERESTS: IoT, Blockchain,
+DOMAIN: AI/ML
+EXPERIENCE: Intern at Infosys, Freelancer, Open Source Contributor,
+GOAL: Skills
+CONNECTIONS: neha80, isha26, nidhi98,
 
-USERNAME: arjun28
+USERNAME: arjun66
 NAME: Arjun Kapoor
-LEETCODERANK: 23484
-CGPA: 9.68
-YEAR: 2
-INTERESTS: Blockchain,
-DOMAIN: Embedded Systems
-EXPERIENCE: Intern at Infosys,
-GOAL: Academia
-CONNECTIONS: pooja83, tanya19, vikram41,
+LEETCODERANK: 34487
+CGPA: 9.31
+YEAR: 4
+INTERESTS: Robotics,
+DOMAIN: Cloud Computing
+EXPERIENCE: Intern at Infosys, Research Assistant, Open Source Contributor,
+GOAL: Skills
+CONNECTIONS: vikram15, tanya14, raj57,
 
-USERNAME: meera63
+USERNAME: meera40
 NAME: Meera Joshi
-LEETCODERANK: 24552
-CGPA: 7.83
+LEETCODERANK: 26957
+CGPA: 9.0
+YEAR: 4
+INTERESTS: IoT,
+DOMAIN: AI/ML
+EXPERIENCE: Freelancer, Research Assistant, Intern at Infosys,
+GOAL: Skills
+CONNECTIONS: sid42, rohan39, tanya14,
+
+USERNAME: neha80
+NAME: Neha Bhatia
+LEETCODERANK: 99968
+CGPA: 8.98
+YEAR: 3
+INTERESTS: Blockchain, Data Science,
+DOMAIN: Web Development
+EXPERIENCE: Intern at TCS, Freelancer, Open Source Contributor,
+GOAL: Academia
+CONNECTIONS: tanya14, divya24, raj57,
+
+USERNAME: raj57
+NAME: Raj Malhotra
+LEETCODERANK: 78313
+CGPA: 8.57
 YEAR: 2
-INTERESTS: AR/VR, IoT, Blockchain,
+INTERESTS: Robotics, ML, Data Science,
 DOMAIN: Cloud Computing
 EXPERIENCE: Intern at Infosys,
 GOAL: Academia
-CONNECTIONS: aarav13, tanya90, sid57,
+CONNECTIONS: nidhi98, aarav69, tanya14,
 
-USERNAME: neha14
-NAME: Neha Bhatia
-LEETCODERANK: 80266
-CGPA: 7.56
-YEAR: 4
-INTERESTS: ML, Data Science,
-DOMAIN: App Development
-EXPERIENCE: Intern at TCS, Freelancer,
-GOAL: Skills
-CONNECTIONS: isha68, ananya98, sid40,
-
-USERNAME: raj77
-NAME: Raj Malhotra
-LEETCODERANK: 44342
-CGPA: 8.4
-YEAR: 3
-INTERESTS: Robotics,
-DOMAIN: Embedded Systems
-EXPERIENCE: Intern at TCS,
-GOAL: Skills
-CONNECTIONS: sid14, neha73, isha63,
-
-USERNAME: divya64
+USERNAME: divya24
 NAME: Divya Kaul
-LEETCODERANK: 25851
-CGPA: 7.65
-YEAR: 3
-INTERESTS: AR/VR, IoT,
-DOMAIN: Embedded Systems
-EXPERIENCE: Freelancer, Intern at Infosys, Intern at TCS,
+LEETCODERANK: 22586
+CGPA: 8.81
+YEAR: 2
+INTERESTS: Cybersecurity, Robotics,
+DOMAIN: Web Development
+EXPERIENCE: Intern at Infosys,
 GOAL: Academia
-CONNECTIONS: raj20, nidhi68, tanya16,
+CONNECTIONS: vikram15, tanya14, kunal28,
 
