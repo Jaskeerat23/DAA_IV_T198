@@ -235,8 +235,8 @@ void buildGraph(Graph& graph){
         graph.connect(srcIdx, Users, connections);
     }
 }
-int main(){
+/*int main(){
     Graph graph{};
     buildGraph(graph);
     graph.show();
-}
+}*/
