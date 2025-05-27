@@ -45,12 +45,24 @@ void recommendUserAcademic(vector<Student>& graph, const string& userName, bool 
         }
     }
 
+    ofstream output("D:/DAA_project/OUTPUT.txt");
+    if(!output.is_open()){
+        cerr << "Error while Opening Output file in recommendation system!!" << endl;
+    }
+
     if (bestIdx != -1) {
         cout << "\nRecommended user for " << src.name << " (" << src.userName << ") based on academics:\n";
         cout << "\tName: " << graph[bestIdx].name << "\n";
         cout << "\tUsername: " << graph[bestIdx].userName << "\n";
         cout << "\tCGPA: " << graph[bestIdx].cgpa << "\n";
         cout << "\tYear: " << graph[bestIdx].year << "\n";
+
+        output << "\nRecommended user for " << src.name << " (" << src.userName << ") based on academics:\n";
+        output << "\tName: " << graph[bestIdx].name << "\n";
+        output << "\tUsername: " << graph[bestIdx].userName << "\n";
+        output << "\tCGPA: " << graph[bestIdx].cgpa << "\n";
+        output << "\tYear: " << graph[bestIdx].year << "\n";
+
     } else if (cgpa_constraint) {
         // Retry without CGPA constraint
         recommendUserAcademic(graph, userName, false, year_constraint);
@@ -133,7 +145,15 @@ int main() {
     Graph graph;
     buildGraph(graph);
 
-    string user = "user12"; // change this to test other users
+    string user; // change this to test other users
+
+    ifstream queryFile("QUERY.txt");
+
+    if(!queryFile.is_open()){
+        cerr << "Error opening file!!" << endl;
+    }
+
+    getline(queryFile, user);
 
     recommendUserAcademic(graph.Students, user);
     recommendUserSkills(graph.Students, user);

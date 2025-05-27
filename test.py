@@ -1,9 +1,8 @@
-import os
+import streamlit as st
 
-print("Current working directory:", os.getcwd())
+placeholder = st.empty()
+with placeholder.form():
+    query = st.text_input(label="UserName")
 
-# Optional: List files in the current directory
-print("Files in current directory:", os.listdir())
-
-# Then try running the executable
-os.system(".\\check.exe")
+with open("CHECK.txt", "w") as file:
+    file.write(query)

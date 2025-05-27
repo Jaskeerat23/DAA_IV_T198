@@ -20,6 +20,7 @@ unordered_map<string, int> propIdxs = {
     {"EXPERIENCE", 8},
     {"GOAL", 9},
     {"CONNECTIONS", 10},
+    {"PASSWORD", 11}
 };
 
 unordered_map<int, string> idxtoProp = {
@@ -33,12 +34,14 @@ unordered_map<int, string> idxtoProp = {
     {8, "EXPERIENCE"},
     {9, "GOAL"},
     {10, "CONNECTIONS"},
+    {11, "PASSWORD"}
 };
 
 class Student{
 public:
     string userName;
     string name;
+    string password;
     int leetcodeRank;
     double cgpa;
     int year;
@@ -49,9 +52,10 @@ public:
     string goal;
     list<int> connections;
 
-    Student(string userName, string name, int leetcodeRank, double cgpa, int year, string domain, string goal, vector<string> interests, vector<string> experience){
+    Student(string userName, string name, string password, int leetcodeRank, double cgpa, int year, string domain, string goal, vector<string> interests, vector<string> experience){
         this->userName = userName;
         this->name = name;
+        this->password = password;
         this->leetcodeRank = leetcodeRank;
         this->cgpa = cgpa;
         this->year = year;
@@ -71,8 +75,8 @@ class Graph{
 public:
     vector<Student> Students;
     
-    void addNode(string userName, string name, int leetcodeRank, double cgpa, int year, string domain, string goal, vector<string> interest, vector<string> experience){
-        Student newNode{userName, name, leetcodeRank, cgpa, year, domain, goal, interest, experience};
+    void addNode(string userName, string name, string password, int leetcodeRank, double cgpa, int year, string domain, string goal, vector<string> interest, vector<string> experience){
+        Student newNode{userName, name, password, leetcodeRank, cgpa, year, domain, goal, interest, experience};
         Students.push_back(newNode);
     }
     void connect(int srcIdx, unordered_map<string, int>& Users, vector<vector<string>>& connections){
@@ -113,6 +117,7 @@ public:
             cout << "Profile " << i + 1 << endl;
             cout << "\tUser Name : " << this->Students[i].userName << "." << endl;
             cout << "\tName : " << this->Students[i].name << "." << endl;
+            cout << "\tPassword : " << this->Students[i].password << endl;
             cout << "\tLeetcode Rank : " << this->Students[i].leetcodeRank << "." << endl;
             cout << "\tC.G.P.A. : " << this->Students[i].cgpa << "." << endl;
             cout << "\tCurrent Year : " << this->Students[i].year << "." << endl;
@@ -159,10 +164,12 @@ void extractExperience(vector<string>& experiences, string line, int startIdx){
     }
 }
 void extractConnections(vector<vector<string>>& connections, string line, int startIdx){
-    string connection;
+    cout << "StartIdx is : " << startIdx << endl;
+    string connection; 
     vector<string> userConnections;
     for(int i = startIdx; i<line.length(); i++){
         if(line[i] == ','){
+            cout << connection << endl; 
             userConnections.push_back(connection);
             connection.clear();
             i++;
@@ -186,14 +193,21 @@ void buildGraph(Graph& graph){
     double cgpa;
     unordered_map<string, int> Users;
     ifstream file("NEWINPUT.txt");
-    string line, userName, name, goal, domain;
+
+    if(!file.is_open()){
+        cerr << "Error opening file!!" << endl;
+    }
+
+
+    string line, userName, name, goal, domain, password;
     vector<string> interests, experience;
     vector<vector<string>> connections;
     while(getline(file, line)){
         if(line == ""){
-            graph.addNode(userName, name, leetcodeRank, cgpa, year, domain, goal, interests, experience);
+            graph.addNode(userName, name, password, leetcodeRank, cgpa, year, domain, goal, interests, experience);
             interests.clear();
             experience.clear();
+            password.clear();
             index++;
             continue;
         }
@@ -211,6 +225,7 @@ void buildGraph(Graph& graph){
             case 8 : extractExperience(experience, line, idxtoProp[propIdx].length() + 2); break;
             case 9 : goal = line.substr(idxtoProp[propIdx].length() + 2); break;
             case 10 : extractConnections(connections, line, idxtoProp[propIdx].length() + 2); break;
+            case 11 : password = line.substr(idxtoProp[propIdx].length() + 2); break;
             default : cout << "Wrong property" << endl; break;
         }
     }
@@ -235,8 +250,9 @@ void buildGraph(Graph& graph){
         graph.connect(srcIdx, Users, connections);
     }
 }
-/*int main(){
-    Graph graph{};
-    buildGraph(graph);
-    graph.show();
-}*/
+
+// int main(){
+//     Graph graph{};
+//     buildGraph(graph);
+//     graph.show();
+// }

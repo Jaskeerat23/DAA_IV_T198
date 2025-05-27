@@ -8,6 +8,7 @@ DOMAIN: AI/ML
 EXPERIENCE: Open Source Contributor, Intern at TCS,
 GOAL: Skills
 CONNECTIONS: ananya64, isha26, divya24,
+PASSWORD: B2GB8oJ735
 
 USERNAME: ananya64
 NAME: Ananya Patel
@@ -19,6 +20,7 @@ DOMAIN: Embedded Systems
 EXPERIENCE: Freelancer,
 GOAL: Skills
 CONNECTIONS: divya24, kunal28, rohan39,
+PASSWORD: xZqRabg5qC
 
 USERNAME: rohan39
 NAME: Rohan Mehta
@@ -30,6 +32,7 @@ DOMAIN: Cloud Computing
 EXPERIENCE: Freelancer,
 GOAL: Academia
 CONNECTIONS: kunal28, meera40, nidhi98,
+PASSWORD: k7pRtqv7jF
 
 USERNAME: isha26
 NAME: Isha Verma
@@ -41,6 +44,7 @@ DOMAIN: Web Development
 EXPERIENCE: Intern at TCS,
 GOAL: Academia
 CONNECTIONS: meera40, kunal28, vikram15,
+PASSWORD: 5KGtkA8nbQ
 
 USERNAME: kunal28
 NAME: Kunal Das
@@ -52,6 +56,7 @@ DOMAIN: App Development
 EXPERIENCE: Research Assistant, Freelancer,
 GOAL: Academia
 CONNECTIONS: neha80, tanya14, divya24,
+PASSWORD: y3ZRBTgeqZ
 
 USERNAME: nidhi98
 NAME: Nidhi Singh
@@ -63,6 +68,7 @@ DOMAIN: App Development
 EXPERIENCE: Open Source Contributor,
 GOAL: Academia
 CONNECTIONS: aarav69, meera40, rohan39,
+PASSWORD: pMOTIGROi4
 
 USERNAME: vikram15
 NAME: Vikram Nair
@@ -74,6 +80,7 @@ DOMAIN: AI/ML
 EXPERIENCE: Research Assistant, Intern at Infosys, Freelancer,
 GOAL: Skills
 CONNECTIONS: neha80, kunal28, ananya64,
+PASSWORD: 2uhIvx4YhL
 
 USERNAME: pooja39
 NAME: Pooja Reddy
@@ -85,6 +92,7 @@ DOMAIN: Web Development
 EXPERIENCE: Open Source Contributor, Research Assistant, Intern at Infosys,
 GOAL: Skills
 CONNECTIONS: kunal28, vikram15, tanya14,
+PASSWORD: NcNRO7WWLk
 
 USERNAME: sid42
 NAME: Siddharth Rao
@@ -96,6 +104,7 @@ DOMAIN: Cloud Computing
 EXPERIENCE: Open Source Contributor, Freelancer,
 GOAL: Academia
 CONNECTIONS: divya24, neha80, ananya64,
+PASSWORD: wb6wiecheg
 
 USERNAME: tanya14
 NAME: Tanya Iyer
@@ -107,6 +116,7 @@ DOMAIN: AI/ML
 EXPERIENCE: Intern at Infosys, Freelancer, Open Source Contributor,
 GOAL: Skills
 CONNECTIONS: neha80, isha26, nidhi98,
+PASSWORD: 5h0VQMOgHP
 
 USERNAME: arjun66
 NAME: Arjun Kapoor
@@ -118,6 +128,7 @@ DOMAIN: Cloud Computing
 EXPERIENCE: Intern at Infosys, Research Assistant, Open Source Contributor,
 GOAL: Skills
 CONNECTIONS: vikram15, tanya14, raj57,
+PASSWORD: OhvFaSogOL
 
 USERNAME: meera40
 NAME: Meera Joshi
@@ -129,6 +140,7 @@ DOMAIN: AI/ML
 EXPERIENCE: Freelancer, Research Assistant, Intern at Infosys,
 GOAL: Skills
 CONNECTIONS: sid42, rohan39, tanya14,
+PASSWORD: OYrqIah2Um
 
 USERNAME: neha80
 NAME: Neha Bhatia
@@ -140,6 +152,7 @@ DOMAIN: Web Development
 EXPERIENCE: Intern at TCS, Freelancer, Open Source Contributor,
 GOAL: Academia
 CONNECTIONS: tanya14, divya24, raj57,
+PASSWORD: oO4iUvAcPn
 
 USERNAME: raj57
 NAME: Raj Malhotra
@@ -151,6 +164,7 @@ DOMAIN: Cloud Computing
 EXPERIENCE: Intern at Infosys,
 GOAL: Academia
 CONNECTIONS: nidhi98, aarav69, tanya14,
+PASSWORD: zMT3EBhB2B
 
 USERNAME: divya24
 NAME: Divya Kaul
@@ -162,4 +176,5 @@ DOMAIN: Web Development
 EXPERIENCE: Intern at Infosys,
 GOAL: Academia
 CONNECTIONS: vikram15, tanya14, kunal28,
+PASSWORD: zIMnPmIWys
 
